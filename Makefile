@@ -10,6 +10,9 @@ setup:
 	php artisan db:seed
 	npm ci
 
+install:
+	composer install
+	
 watch:
 	npm run watch
 
